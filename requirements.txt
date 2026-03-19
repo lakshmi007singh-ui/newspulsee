@@ -1,0 +1,20 @@
+# Create requirements.txt
+echo streamlit==1.28.0 > requirements.txt
+echo pandas==2.0.3 >> requirements.txt
+echo numpy==1.24.3 >> requirements.txt
+echo plotly==5.15.0 >> requirements.txt
+echo matplotlib==3.7.2 >> requirements.txt
+echo wordcloud==1.9.2 >> requirements.txt
+echo textblob==0.17.1 >> requirements.txt
+echo scikit-learn==1.3.0 >> requirements.txt
+echo nltk==3.8.1 >> requirements.txt
+echo requests==2.31.0 >> requirements.txt
+echo python-dotenv==1.0.0 >> requirements.txt
+echo seaborn==0.12.2 >> requirements.txt
+echo urllib3==2.0.4 >> requirements.txt
+
+# Create .env.example
+echo NEWS_API_KEY=your_news_api_key_here > .env.example
+
+# Create .env (replace with your actual API key)
+echo NEWS_API_KEY=ec48ab026f2d4645bc42001694069b09 > .env
